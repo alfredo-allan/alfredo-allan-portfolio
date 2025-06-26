@@ -23,7 +23,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-              My services <span className="text-accent">.</span>
+              Meus Projetos <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -32,8 +32,13 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              Sou desenvolvedor <span className="text-accent">full stack</span> com experiência em criação de sistemas web e mobile.
+              No front-end, atuo com  <span className="text-accent">React, Next.js, Tailwind CSS, React Native e Expo Go</span>,
+              desenvolvendo interfaces responsivas e performáticas. No back-end,
+              utilizo <span className="text-accent">Python</span> com <span className="text-accent">Flask</span> e bancos de dados <span className="text-accent">SQL,</span> com deploys funcionais via <span className="text-accent">PythonAnywhere.</span>
+              Integro ferramentas como <span className="text-accent">GitHub, Vercel</span> e soluções de IA para automações e melhorias contínuas.
+              Busco criar aplicações funcionais,
+              com código limpo e foco em resolver problemas reais com agilidade e eficiência.
             </motion.p>
           </div>
 

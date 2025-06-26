@@ -2,7 +2,7 @@
   "name": "modern-portfolio",
   "version": "1.0.1",
   "private": true,
-  "description": "Ethan Smith is a Full-Stack web developer with 10+ years of experience.",
+  "description": "Alfredo Allan desenvolvedor Full-stack",
   "keywords": [
     "react",
     "next",
@@ -44,11 +44,14 @@
     "tsparticles": "^2.9.3"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "4.38.0",
+    "@types/react": "19.1.8",
+    "@types/swiper": "^6.0.0",
     "autoprefixer": "^10.4.14",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
-    "@netlify/plugin-nextjs": "4.38.0"
+    "typescript": "5.8.3"
   }
 }

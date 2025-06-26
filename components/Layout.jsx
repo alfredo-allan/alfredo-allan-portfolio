@@ -20,16 +20,16 @@ const Layout = ({ children }) => {
     >
       {/* metadata */}
       <Head>
-        <title>Ethan Smith | Portfolio</title>
+        <title>Alfredo Allan | Portfolio</title>
         <meta
           name="description"
-          content="Ethan Smith is a Full-stack web developer with 10+ years of experience."
+          content="Alfredo Allan  Full-stack desenvolvedor web."
         />
         <meta
           name="keywords"
           content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
         />
-        <meta name="author" content="Ethan Smith" />
+        <meta name="author" content="Alfredo Allan" />
         <meta name="theme-color" content="#f13024" />
       </Head>
 

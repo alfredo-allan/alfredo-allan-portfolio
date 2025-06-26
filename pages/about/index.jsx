@@ -2,27 +2,37 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import CountUp from "react-countup";
 import {
+  FaBootstrap,
   FaCss3,
   FaFigma,
+  FaFlask,
   FaHtml5,
   FaJs,
+  FaLinux,
   FaReact,
   FaWordpress,
 } from "react-icons/fa";
 import {
   SiAdobephotoshop,
   SiAdobexd,
+  SiFlask,
   SiFramer,
+  SiInsomnia,
+  SiKalilinux,
   SiNextdotjs,
+  SiPostman,
+  SiPython,
+  SiPythonanywhere,
+  SiVisualstudio,
 } from "react-icons/si";
-import Avatar from "../../components/Avatar";
+import Avatar from "../../components/UserProfile";
 import Circles from "../../components/Circles";
 import { fadeIn } from "../../variants";
 
 //  data
 export const aboutData = [
   {
-    title: "skills",
+    title: "Habilidades",
     info: [
       {
         title: "Web Development",
@@ -30,65 +40,107 @@ export const aboutData = [
           FaHtml5,
           FaCss3,
           FaJs,
+          FaBootstrap,
           FaReact,
           SiNextdotjs,
-          SiFramer,
-          FaWordpress,
+          SiPython,
+          SiFlask,
+          FaLinux,
+          SiKalilinux,
+          SiPythonanywhere,
+          SiVisualstudio
         ],
+      },
+
+      {
+        title: "Dev Tools",
+        icons: [
+          SiPostman,      // Ícone do Postman
+          SiInsomnia      // Ícone do Insomnia
+        ]
       },
       {
         title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
+        icons: [FaFigma],
       },
     ],
   },
   {
-    title: "awards",
+    title: "Formação",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "Analise e desenvolvimento de sistemas",
+        stage: "2024 - 2026",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Engenharia social e phishing",
+        stage: "2023 - 2023",
       },
+      {
+        title: "Shell Script e manipulação de arquivos",
+        stage: "2021 - 2021",
+      },
+      {
+        title: "Introdução ao sistema operacional Linux",
+        stage: "2021 - 2021",
+      },
+      {
+        title: "Programação para internet com JavaScript",
+        stage: "2021 - 2021",
+      },
+      {
+        title: "Recriação da página do Instagram",
+        stage: "2021 - 2021",
+      },
+      {
+        title: "Criação de sites com HTML5 e CSS",
+        stage: "2021 - 2021",
+      },
+      {
+        title: "Git e GitHub",
+        stage: "2021 - 2021",
+      },
+      {
+        title: "Estruturas de algoritmos e lógica de programação",
+        stage: "2021 - 2021",
+      },
+
     ],
   },
-  {
-    title: "experience",
-    info: [
-      {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
-      },
-      {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
-      },
-    ],
-  },
-  {
-    title: "credentials",
-    info: [
-      {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
-      },
-      {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
-      },
-    ],
-  },
+  // {
+  //   title: "experience",
+  //   info: [
+  //     {
+  //       title: "UX/UI Designer - XYZ Company",
+  //       stage: "2012 - 2023",
+  //     },
+  //     {
+  //       title: "Web Developer - ABC Agency",
+  //       stage: "2010 - 2012",
+  //     },
+  //     {
+  //       title: "Intern - DEF Corporation",
+  //       stage: "2008 - 2010",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "credentials",
+  //   info: [
+  //     {
+  //       title: "Web Development - ABC University, LA, CA",
+  //       stage: "2011",
+  //     },
+  //     {
+  //       title: "Computer Science Diploma - AV Technical Institute",
+  //       stage: "2009",
+  //     },
+  //     {
+  //       title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
+  //       stage: "2006",
+  //     },
+  //   ],
+  // },
 ];
 
 const About = () => {
@@ -104,8 +156,7 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[370px]"
-      >
+        className="hidden xl:flex absolute bottom-0 left-[40px]"       >
         <Avatar />
       </motion.div>
 
@@ -119,8 +170,7 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            um entusiasta da tecnologia experiência em áreas de desenvolvimento de  <span className="text-accent">software</span> Minha jornada inclui.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -128,20 +178,20 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I begin freelancing as a developer. Since then, I've
-            done remote work for agencies, consulted for startups, and
-            collabrated on digital products for business and consumer use.
+            Nos últimos anos, venho me dedicando ao desenvolvimento de soluções funcionais e acessíveis, sempre com foco na integração entre front-end e back-end. Já atuei na criação de sistemas completos — web e mobile — aplicando tecnologias como React, Next.js, Tailwind, React Native (Expo), Python e Flask.
+
+            Ao longo dessa jornada, desenvolvi ferramentas como o Breakage Control, voltado à gestão de produtos perecíveis com gráficos e relatórios analíticos, e o My Make System, um PDV completo com controle de estoque, caixa e operações.
+
+            Minha motivação sempre foi entregar projetos que resolvam problemas reais, com estrutura clara, navegação intuitiva e lógica bem definida.
           </motion.p>
 
-          {/* counters */}
-          <motion.div
+          {/* <motion.div
             variants={fadeIn("right", 0.6)}
             initial="hidden"
             animate="show"
             className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8"
           >
             <div className="flex flex-1 xl:gap-x-6">
-              {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={10} duration={5} />
@@ -151,7 +201,6 @@ const About = () => {
                 </div>
               </div>
 
-              {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={250} duration={5} />
@@ -161,7 +210,6 @@ const About = () => {
                 </div>
               </div>
 
-              {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={650} duration={5} />
@@ -171,7 +219,6 @@ const About = () => {
                 </div>
               </div>
 
-              {/* awards */}
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={8} duration={5} />
@@ -181,7 +228,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
 
         {/* info */}
@@ -196,10 +243,9 @@ const About = () => {
             {aboutData.map((item, itemI) => (
               <div
                 key={itemI}
-                className={`${
-                  index === itemI &&
+                className={`${index === itemI &&
                   "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
-                } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+                  } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
                 onClick={() => setIndex(itemI)}
               >
                 {item.title}
@@ -221,7 +267,7 @@ const About = () => {
                 <div className="flex gap-x-4">
                   {/* icons */}
                   {item.icons?.map((Icon, iconI) => (
-                    <div key={iconI} className="text-2xl text-white">
+                    <div key={iconI} className="text-[35px] text-white">
                       <Icon />
                     </div>
                   ))}
@@ -229,6 +275,7 @@ const About = () => {
               </div>
             ))}
           </div>
+
         </motion.div>
       </div>
     </div>

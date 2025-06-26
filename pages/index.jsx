@@ -14,28 +14,28 @@ const Home = () => {
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           {/* title */}
           <motion.h1
-            variants={fadeIn("down", 0.2)}
+            variants={fadeIn("down", 0.4)}
             initial="hidden"
             animate="show"
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            Transformando Ideias
+            <br /> {" "}
+            <span className="text-accent">Em realidade digital</span>
           </motion.h1>
 
           {/* subtitle */}
           <motion.p
-            variants={fadeIn("down", 0.3)}
+            variants={fadeIn("down", 0.4)}
             initial="hidden"
             animate="show"
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            Tenho atuado como desenvolvedor full stack, buscando sempre construir soluções funcionais e objetivas . Trabalho com tecnologias como React, Next.js, React Native (Expo Go) e Tailwind CSS no front-end, além de Python e Flask no back-end, criando aplicações completas — tanto web quanto mobile — com foco na simplicidade, agilidade e integração entre camadas.
+
+            Ainda estou em constante aprendizado, mas tenho prazer em criar sistemas funcionais, com navegação intuitiva e lógica bem estruturada, voltados para atender necessidades reais.
           </motion.p>
 
           {/* btn */}
@@ -72,7 +72,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          className="w-full h-full max-w-[500px] max-h-[600px] absolute -bottom-32 lg:bottom-0 lg:right-[20%]"
         >
           <Avatar />
         </motion.div>
