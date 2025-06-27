@@ -1,3 +1,5 @@
+"use client";
+
 import {
   RxCrop,
   RxPencil2,
@@ -6,12 +8,17 @@ import {
   RxRocket,
   RxArrowTopRight,
 } from "react-icons/rx";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { FreeMode, Pagination } from 'swiper/modules';
 
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { FreeMode, Pagination } from "swiper";
+
+// Estilos do Swiper
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
+// Registro dos módulos para SSR (Next.js)
+SwiperCore.use([FreeMode, Pagination]);
 
 const serviceData = [
   {
@@ -57,7 +64,6 @@ const ServiceSlider = () => {
       pagination={{
         clickable: true,
       }}
-      modules={[FreeMode, Pagination]}
       freeMode
       className="h-[240px] sm:h-[340px]"
     >
