@@ -1,5 +1,11 @@
 {
     "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "swiper": [
+                "node_modules/swiper"
+            ]
+        },
         "typeRoots": [
             "./types",
             "./node_modules/@types"
@@ -19,12 +25,15 @@
         "moduleResolution": "node",
         "resolveJsonModule": true,
         "isolatedModules": true,
-        "jsx": "preserve"
+        "jsx": "preserve",
+        "allowSyntheticDefaultImports": true,
     },
     "include": [
         "next-env.d.ts",
         "**/*.ts",
-        "**/*.tsx"
+        "**/*.tsx",
+        "swiper.d.ts",
+        "src"
     ],
     "exclude": [
         "node_modules"

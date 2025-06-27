@@ -30,7 +30,7 @@ const Services = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0"
+              className="text-sm md:text-lg max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
             >
               Sou desenvolvedor <span className="text-accent">full stack</span> com experiência em criação de sistemas web e mobile.
               No front-end, atuo com  <span className="text-accent">React, Next.js, Tailwind CSS, React Native e Expo Go</span>,

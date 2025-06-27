@@ -47,7 +47,7 @@ export const socialData = [
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg">
+    <div className="flex items-center gap-x-5 text-lg icon-mobile-offset">
       {socialData.map((social, i) => (
         <Link
           key={i}
@@ -60,7 +60,7 @@ const Socials = () => {
             : "hover:text-accent"
             } transition-all duration-300`}
         >
-          <social.Icon aria-hidden />
+          <social.Icon className="text-2xl md:text-3xl" aria-hidden />
           <span className="sr-only">{social.name}</span>
         </Link>
       ))}

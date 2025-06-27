@@ -31,12 +31,13 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="text-sm md:text-lg max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Tenho atuado como desenvolvedor full stack, buscando sempre construir soluções funcionais e objetivas . Trabalho com tecnologias como React, Next.js, React Native (Expo Go) e Tailwind CSS no front-end, além de Python e Flask no back-end, criando aplicações completas — tanto web quanto mobile — com foco na simplicidade, agilidade e integração entre camadas.
+            Tenho atuado como desenvolvedor full stack, buscando sempre construir soluções funcionais e objetivas. Trabalho com tecnologias como React, Next.js, React Native (Expo Go) e Tailwind CSS no front-end, além de Python e Flask no back-end, criando aplicações completas — tanto web quanto mobile — com foco na simplicidade, agilidade e integração entre camadas.
 
             Ainda estou em constante aprendizado, mas tenho prazer em criar sistemas funcionais, voltados para atender necessidades reais.
           </motion.p>
+
 
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
