@@ -77,7 +77,7 @@ export const aboutData = [
         stage: "2023 - 2023",
       },
       {
-        title: "Programação em Python Mundo Python Modulos (1, 2, 3)",
+        title: "Mundo Python Modulos (1, 2, 3)",
         stage: "2022 - 2022",
       },
       {
