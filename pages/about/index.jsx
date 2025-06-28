@@ -275,7 +275,7 @@ const About = () => {
                 <div className="flex gap-x-4">
                   {/* icons */}
                   {item.icons?.map((Icon, iconI) => (
-                    <div key={iconI} className="flex flex-wrap justify-center md:justify-start gap-4 mt-2 text-[20px] md:text-[32px]">
+                    <div key={iconI} className="flex flex-wrap justify-center md:justify-start gap-4 mt-2 text-[15px] md:text-[32px]">
                       < Icon />
                     </div>
                   ))}

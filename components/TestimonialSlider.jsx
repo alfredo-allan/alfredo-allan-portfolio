@@ -30,7 +30,7 @@ const testimonialData = [
     name: "Gerson",
     position: "Lider de Loja",
     message:
-      "O Breakage Control me ajuda a ver quando os produtos vão vencer. Com ele, eu consigo organizar melhor tudo que tá perto do prazo, evitar perdas e entender o que tá acontecendo no estoque. É fácil de usar e resolve um problema que eu sempre tive."
+      "O Breakage Control me ajuda a ver quando os produtos vão vencer. Com ele, eu consigo organizar melhor tudo que tá perto do prazo, evitar perdas e entender o estoque."
   },
 ];
 
@@ -59,7 +59,7 @@ const TestimonialSlider = () => {
             </div>
 
             {/* Mensagem */}
-            <div className="flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20">
+            <div className="text-sm md:text-lg max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
               <div className="mb-4">
                 <FaQuoteLeft
                   className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0"
