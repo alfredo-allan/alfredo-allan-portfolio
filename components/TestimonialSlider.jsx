@@ -13,24 +13,24 @@ import "swiper/css/pagination";
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    name: "Loureto",
+    position: "Barbeiro",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Cara, o sistema facilitou muito minha rotina aqui na barbearia. Os clientes conseguem agendar sozinhos, recebo as confirmações, e ainda controlo tudo pela página de gerenciamento. Simples, rápido e funciona de verdade!"
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "Adenildo",
+    position: "Gerente",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Antes era tudo no papel, uma bagunça. Agora com o sistema, cada entrada e saída fica registrada certinho, e ainda imprimo o comprovante na hora. Me deu mais controle e profissionalismo no atendimento. Valeu demais!"
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    name: "Gerson",
+    position: "Lider de Loja",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "O Breakage Control me ajuda a ver quando os produtos vão vencer. Com ele, eu consigo organizar melhor tudo que tá perto do prazo, evitar perdas e entender o que tá acontecendo no estoque. É fácil de usar e resolve um problema que eu sempre tive."
   },
 ];
 

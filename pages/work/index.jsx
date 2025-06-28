@@ -20,7 +20,7 @@ const Work = () => {
               exit="hidden"
               className="h2 xl:mt-12"
             >
-              My work <span className="text-accent">.</span>
+              Meus Projetos <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -29,8 +29,11 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              Aqui você encontrará projetos que unem front-end moderno com back-end robusto,
+              desenvolvidos com tecnologias como React, Next.js, Tailwind CSS, Bootstrap, React Native,
+              Python e Flask. Cada sistema foi pensado para resolver problemas reais com foco
+              em usabilidade, integração e performance —
+              desde aplicações web completas até soluções mobile e APIs funcionais.
             </motion.p>
           </div>
 

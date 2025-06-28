@@ -31,7 +31,7 @@ const serviceData = [
   {
     Icon: RxDesktop,
     title: "Development",
-    description: "Soluções web modernas, rápidas e escaláveis.",
+    description: "Soluções web e mobile modernas, rápidas e escaláveis.",
   },
   {
     Icon: RxReader,

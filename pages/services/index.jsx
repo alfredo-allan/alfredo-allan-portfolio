@@ -34,7 +34,7 @@ const Services = () => {
             >
               Sou desenvolvedor <span className="text-accent">full stack</span> com experiência em criação de sistemas web e mobile.
               No front-end, atuo com  <span className="text-accent">React, Next.js, Tailwind CSS, React Native e Expo Go</span>,
-              desenvolvendo interfaces responsivas e performáticas. No back-end,
+              desenvolvendo interfaces responsivas e funcionais. No back-end,
               utilizo <span className="text-accent">Python</span> com <span className="text-accent">Flask</span> e bancos de dados <span className="text-accent">SQL,</span> com deploys funcionais via <span className="text-accent">PythonAnywhere.</span>
               Integro ferramentas como <span className="text-accent">GitHub, Vercel</span> e soluções de IA para automações e melhorias contínuas.
               Busco criar aplicações funcionais,

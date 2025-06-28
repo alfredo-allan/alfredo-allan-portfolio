@@ -20,9 +20,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transformando Ideias
-            <br /> {" "}
-            <span className="text-accent">Em realidade digital</span>
+            Desenvolvedor            <br /> {" "}
+            <span className="text-accent">Full Stack</span>
           </motion.h1>
 
           {/* subtitle */}
@@ -33,9 +32,8 @@ const Home = () => {
             exit="hidden"
             className="text-sm md:text-lg max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Tenho atuado como desenvolvedor full stack, buscando sempre construir soluções funcionais e objetivas. Trabalho com tecnologias como React, Next.js, React Native (Expo Go) e Tailwind CSS no front-end, além de Python e Flask no back-end, criando aplicações completas — tanto web quanto mobile — com foco na simplicidade, agilidade e integração entre camadas.
-
-            Ainda estou em constante aprendizado, mas tenho prazer em criar sistemas funcionais, voltados para atender necessidades reais.
+            React, React Native (Expo - Go), Next.js, Tailwind, Bootstrap, Python & Flask
+            Aplicações web e mobile com foco em agilidade, integração e propósito real.
           </motion.p>
 
 

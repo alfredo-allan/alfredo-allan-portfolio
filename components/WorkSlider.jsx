@@ -14,20 +14,20 @@ const workSlides = {
   slides: [
     {
       images: [
-        { title: "title", path: "/thumb1.jpg", link: "http://example.com" },
-        { title: "title", path: "/thumb2.jpg", link: "http://example.com" },
-        { title: "title", path: "/thumb3.jpg", link: "http://example.com" },
-        { title: "title", path: "/thumb4.jpg", link: "http://example.com" },
+        { title: "title", path: "/thumb1.jpg", link: "https://alfredo-allan.github.io/My-Make-System/" },
+        { title: "title", path: "/thumb2.jpg", link: "https://breakage-control.vercel.app/" },
+        { title: "title", path: "/thumb3.jpg", link: "https://alfredo-allan.github.io/presentation-page/" },
+        { title: "title", path: "/thumb4.jpg", link: "https://alfredo-allan.github.io/one-park/" },
       ],
     },
-    {
-      images: [
-        { title: "title", path: "/thumb4.jpg", link: "http://example.com" },
-        { title: "title", path: "/thumb1.jpg", link: "http://example.com" },
-        { title: "title", path: "/thumb2.jpg", link: "http://example.com" },
-        { title: "title", path: "/thumb3.jpg", link: "http://example.com" },
-      ],
-    },
+    // {
+    //   images: [
+    //     { title: "title", path: "/thumb4.jpg", link: "http://example.com" },
+    //     { title: "title", path: "/thumb1.jpg", link: "http://example.com" },
+    //     { title: "title", path: "/thumb2.jpg", link: "http://example.com" },
+    //     { title: "title", path: "/thumb3.jpg", link: "http://example.com" },
+    //   ],
+    // },
   ],
 };
 

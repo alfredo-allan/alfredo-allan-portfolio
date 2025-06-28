@@ -29,12 +29,12 @@
   }
 
   .h1 {
-    @apply text-[20px] leading-tight md:text-[45px] md:leading-[1.2] mb-8 font-semibold;
+    @apply text-[28px] leading-tight md:text-[45px] md:leading-[1.2] mb-8 font-semibold;
   }
 
 
   .h2 {
-    @apply text-[18px] leading-tight md:text-[48px] md:leading-[1.2] mb-4 font-semibold;
+    @apply text-[18px] leading-tight md:text-[25px] md:leading-[1.2] mb-4 font-semibold;
   }
 
   p {
@@ -61,7 +61,24 @@
 
   @layer utilities {
     .icon-mobile-offset {
-      @apply relative top-[-19px] md:top-0;
+      @apply relative top-[0px] md:top-0;
     }
+  }
+}
+
+@layer utilities {
+  .logo-mobile-offset {
+    @apply relative top-[-10px] md:top-0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .swiper-pagination {
+    position: relative !important;
+    margin-top: -0.5rem !important;
+    bottom: 0 !important;
+    display: flex !important;
+    justify-content: center;
   }
 }
